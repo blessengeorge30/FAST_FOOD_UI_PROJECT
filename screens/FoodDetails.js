@@ -7,7 +7,7 @@ import { foodItems } from '../constants';
 
 export default function FoodDetailsScreen(props) {
 
-  let currentPrice = 10.55;
+  let currentPrice = 13.42;
 
 
 
