@@ -25,18 +25,18 @@ export default function FoodCard({ item, index }) {
         <Image source={item.image} style={{ height: 120, width: 120 }} />
       </View>
       <View style={{ flex: 1, paddingHorizontal: 18, paddingVertical: 3 }}>
-        <Text style={{ color: 'white', fontSize: 25 }}>{item.name}</Text>
+        <Text style={{ color: 'white', fontSize: 22 }}>{item.name}</Text>
         <Text style={{ color: 'white' }}>{item.ingredients}</Text>
       </View>
       <View style={{ flexDirection: 'row' }}>
-        <Text style={{ fontSize: 30, color: 'white', marginHorizontal: 25, marginVertical: 12 }}>
+        <Text style={{ fontSize: 25, color: 'white', marginHorizontal: 25, marginVertical: 12 }}>
           ${item.price}
         </Text>
         <TouchableOpacity
           onPress={() => navigation.navigate('FoodDetails')}
 
         >
-          <Image source={require('../assets/shopping.png')} style={{ marginLeft: 18, height: 45, width: 45 }} />
+          <Image source={require('../assets/shopping.png')} style={{ marginLeft: 20,marginTop:15, height: 35, width: 35 }} />
         </TouchableOpacity>
 
       </View>

@@ -84,27 +84,27 @@ export default function FoodDetailsScreen(props) {
 
         </View>
 
-        <View style={{ marginRight: 200, marginTop: 26 }}>
+        <View style={{ marginRight: 200, marginTop: 22 }}>
           <Animatable.Text
             animation="slideInUp"
-            style={{ fontSize: 38, fontWeight: 'bold', color: 'black' }}>
+            style={{ fontSize: 38,marginBottom: 10,marginLeft:16, fontWeight: 'bold', color: 'black' }}>
             Description
           </Animatable.Text>
         </View>
         <View>
           <Animatable.Text
             delay={100} animation="slideInUp"
-            style={{ fontSize: 18, color: 'grey', marginHorizontal: 15, marginTop: 5 }}>A mouthwatering pizza is a culinary wonder that delights your senses and satisfies your hunger. The crispy crust is the foundation of this masterpiece, topped with a tangy tomato sauce that perfectly balances the flavors.</Animatable.Text>
+            style={{ fontSize: 16, color: 'grey', marginHorizontal: 15, marginTop: 5 }}>A mouthwatering pizza is a culinary wonder that delights your senses and satisfies your hunger. The crispy crust is the foundation of this masterpiece, topped with a tangy tomato sauce that perfectly balances the flavors.</Animatable.Text>
         </View>
       </View>
 
       {/* add to cart button */}
       <View style={{ marginHorizontal: 15, flexDirection: 'row', }}>
-        <Animatable.Text delay={100} animation="slideInLeft" style={{ fontSize: 38, color: 'black', marginHorizontal: 5, marginTop: 75, fontWeight: 600, flex: 2 }}>
+        <Animatable.Text delay={100} animation="slideInLeft" style={{ fontSize: 35, color: 'black', marginHorizontal: 5, marginTop: 50, fontWeight: 600, flex: 2 }}>
           ${currentPrice * Value}
         </Animatable.Text>
         <Animatable.View delay={100} animation="slideInRight">
-          <TouchableOpacity style={{ backgroundColor: 'black', borderRadius: 10, marginHorizontal: 15, marginTop: 80, height: 50, width: 200, alignItems: 'center', justifyContent: 'center' }}>
+          <TouchableOpacity style={{ backgroundColor: 'black', borderRadius: 10, marginHorizontal: 15, marginTop: 55, height: 50, width: 200, alignItems: 'center', justifyContent: 'center' }}>
             <Text style={{ color: 'white', fontSize: 15, fontWeight: 300 }}>Add to Cart</Text>
           </TouchableOpacity>
         </Animatable.View>
