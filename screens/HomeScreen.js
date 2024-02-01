@@ -28,7 +28,7 @@ const Home = () => {
 
 
         </View>
-        <View style={{ marginTop: 24, marginBottom: 15 }}>
+        <View style={{ marginTop: 20, marginBottom: 15 }}>
           <Text style={{ marginHorizontal: 15, fontSize: 55, color: 'white', fontWeight: '500' }}>Fast and</Text>
           <Text style={{ marginHorizontal: 15, fontSize: 62, color: '#d6d6cd', fontWeight: '500' }}>
             <Text style={{ fontWeight: '700', color: '#bebeb6' }}>Delicious</Text> Food
@@ -45,7 +45,7 @@ const Home = () => {
         </View>
 
         <ScrollView
-          style={{ marginTop: 20 }}
+          style={{ marginTop: 10 }}
           horizontal
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={{ paddingHorizontal: 28 }}

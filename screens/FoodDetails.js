@@ -46,7 +46,7 @@ export default function FoodDetailsScreen(props) {
       </View>
       <View style={{ top: -15, justifyContent: 'center', alignItems: 'center' }}>
         <Image style={{ height: 200, width: 200 }} source={require('../assets/pizza.png')} />
-        <Text style={{ fontSize: 35, fontWeight: '500', color: 'white', marginRight: 15 }}>
+        <Text style={{ fontSize: 30, fontWeight: '500', color: 'white', marginRight: 15 }}>
           Cheezy Pizza
         </Text>
         <View style={{ justifyContent: 'center', alignItems: 'center', marginVertical: 30 }}>
@@ -87,14 +87,14 @@ export default function FoodDetailsScreen(props) {
         <View style={{ marginRight: 200, marginTop: 22 }}>
           <Animatable.Text
             animation="slideInUp"
-            style={{ fontSize: 38,marginBottom: 10,marginLeft:16, fontWeight: 'bold', color: 'black' }}>
+            style={{ fontSize: 35,marginBottom: 10,marginLeft:10, fontWeight: 'bold', color: 'black' }}>
             Description
           </Animatable.Text>
         </View>
         <View>
           <Animatable.Text
             delay={100} animation="slideInUp"
-            style={{ fontSize: 16, color: 'grey', marginHorizontal: 15, marginTop: 5 }}>A mouthwatering pizza is a culinary wonder that delights your senses and satisfies your hunger. The crispy crust is the foundation of this masterpiece, topped with a tangy tomato sauce that perfectly balances the flavors.</Animatable.Text>
+            style={{ fontSize: 15, color: 'grey', marginHorizontal: 16, marginTop: 5 }}>A mouthwatering pizza is a culinary wonder that delights your senses and satisfies your hunger. The crispy crust is the foundation of this masterpiece, topped with a tangy tomato sauce that perfectly balances the flavors.</Animatable.Text>
         </View>
       </View>
 
@@ -115,7 +115,7 @@ export default function FoodDetailsScreen(props) {
 
 const styles = StyleSheet.create({
   button: {
-    height: 45,
+    height: 48,
     width: 55,
     borderColor: 'white',
     elevation: 15,
@@ -139,11 +139,11 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     justifyContent: 'center',
     alignItems: 'center',
-    marginVertical: 30,
+    marginVertical: 40,
     marginHorizontal: 235,
   },
   button2: {
-    height: 45,
+    height: 48,
     width: 55,
     borderColor: 'white',
     elevation: 15,
@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     justifyContent: 'center',
     alignItems: 'center',
-    marginVertical: 28,
+    marginVertical: 40,
     marginHorizontal: 20
 
   },
