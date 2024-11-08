@@ -3,6 +3,7 @@
 Welcome to the future of fast food ordering with our revolutionary Fast Food UI App! Our app redefines the way you experience quick and delicious meals, putting a sleek and intuitive interface right at your fingertips.
 
 ## Screenshots
+![App Screenshot](./screenshots/Overview.png)
 
 ![App Screenshot](./screenshots/splash.png)
 
